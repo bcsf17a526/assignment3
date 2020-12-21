@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Anav</string>
+
+<!--    <string name="app_name">Anav</string>-->
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+    <string name="question_1">Pakistan was founded in 1947.</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+    <string name="question_2">Quaide e Azam was the first President of the Constitution Assembly of Pakistan?.</string>
+    <string name="question_3">First Constituion of Pakistan was enforced in 1962.</string>
+
+
+
+    <string name="question_4">Capital of Pakistan is Islamabad.</string>
+    <string name="question_5">Punjabi is our National Language.</string>
+    <string name="next_text">next</string>
+
+
+</resources>
+
+

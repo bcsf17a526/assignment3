@@ -1,0 +1,128 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout"
+    tools:context=".Cal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/numb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="100"
+                android:hint="Enter !st Number"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:text=""
+                android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/numb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:ems="100"
+                    android:hint="Enter 2nd Number"
+                    android:inputType="textPersonName" />
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="14dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/add"
+                        android:layout_width="74dp"
+                        android:layout_height="58dp"
+                        android:text="ADD"
+                         />
+
+                    <Button
+                        android:id="@+id/sub"
+                        android:layout_width="74dp"
+                        android:layout_height="58dp"
+                        android:text="SUB"
+                        />
+
+                    <Button
+                        android:id="@+id/div"
+                        android:layout_width="74dp"
+                        android:layout_height="58dp"
+                        android:text="DIV"
+                         />
+
+                    <Button
+                        android:id="@+id/mul"
+                        android:layout_width="74dp"
+                        android:layout_height="58dp"
+                        android:text="MUL"/>
+
+                    <TextView
+                        android:id="@+id/answer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="your answer will appear here"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+                    </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- que counter section -->
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+
+        <include
+            layout="@layout/drawer"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
